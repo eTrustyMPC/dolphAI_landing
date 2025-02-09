@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth bg-ocean-50">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DolphAI - Secure AI Solutions</title>
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/gallery.js"></script>
+</head>
+<body class="text-white min-h-screen overflow-x-hidden">
+    <div class="fixed inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-crypto-900 -z-10"></div>
+
+    <!-- Navigation -->
+    <nav class="w-full py-4 bg-gray-900/80 backdrop-blur-lg border-b border-primary-500/20 sticky top-0 z-50 animate-fade-in">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2 group">
+                    <div class="w-8 h-8 rounded-full bg-gradient-to-r from-primary-500 to-crypto-500 animate-pulse-slow"></div>
+                    <div class="text-2xl font-bold bg-gradient-to-r from-primary-400 to-crypto-400 text-transparent bg-clip-text tracking-wide group-hover:scale-105 transition-transform duration-300">DOLPHAI.XYZ</div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300 hover:scale-105 transform">Features</a>
+                    <a href="#roadmap" class="text-gray-300 hover:text-white transition-colors duration-300 hover:scale-105 transform">Roadmap</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300 hover:scale-105 transform">About</a>
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="https://x.com/dolphai" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-black/80 text-white rounded-full hover:bg-black transition-all duration-300 flex items-center space-x-2 border border-primary-500/20 backdrop-blur-lg hover:border-primary-500/40 hover:scale-105 group">
+                        <svg class="w-4 h-4 group-hover:rotate-12 transition-transform duration-300" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+                        <span class="group-hover:text-primary-400 transition-colors duration-300">Follow</span>
+                    </a>
+                    <a href="#launch" class="relative px-6 py-2.5 bg-gradient-to-r from-primary-600 to-crypto-600 hover:from-primary-500 hover:to-crypto-500 text-white rounded-lg transition-all duration-300 font-medium shadow-lg shadow-primary-600/20 hover:shadow-primary-500/30 hover:scale-105 overflow-hidden group">
+                        <span class="relative z-10">Launch App</span>
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary-400/20 to-crypto-400/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <!-- Left Column -->
+            <div class="space-y-8">
+                <h1 class="text-5xl font-bold text-white tracking-tight">
+                    <span class="block">Creating clear paths in</span>
+                    <span class="block bg-gradient-to-r from-primary-400 to-crypto-400 text-transparent bg-clip-text">the sea of Web3</span>
+                </h1>
+                <p class="text-xl text-gray-300 leading-relaxed">
+                    Meet DolphAI, your AI companion for SUI, decoding project fundamentals, community trends and delivering real-time crypto intelligence.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#launch" class="px-6 py-3 bg-gradient-to-r from-primary-600 to-crypto-600 hover:from-primary-700 hover:to-crypto-700 text-white rounded-md transition-all duration-200">Launch App</a>
+                    <a href="#whitepaper" class="px-6 py-3 border border-gray-700 bg-gray-800/50 text-gray-300 hover:text-white hover:bg-gray-700/80 rounded-lg transition-all duration-300 backdrop-blur-sm font-medium">Whitepaper</a>
+                </div>
+                <p class="text-sm text-gray-400">
+                    DolphAI, your expert friend helping you navigate the complex world of Web3 with confidence.
+                </p>
+            </div>
+            <!-- Right Column -->
+            <div class="space-y-12">
+                <div class="bg-gradient-to-br from-primary-500/20 to-crypto-500/20 rounded-xl aspect-video flex items-center justify-center border border-gray-700/50 shadow-xl shadow-primary-500/10 backdrop-blur-sm hover:border-gray-600/50 transition-all duration-300">
+                    <span class="text-gray-300">DolphAI Design / Image</span>
+                </div>
+                <!-- Partner Logos Section -->
+                <div class="space-y-6 text-center">
+                    <h2 class="text-2xl font-semibold text-gray-200 tracking-tight">Discover, Decide and Do more on SUI - all in one place.</h2>
+                    <div class="relative overflow-hidden px-4">
+                        <div id="gallery" class="flex items-center">
+                            <!-- First set of logos -->
+                            <div class="flex items-center justify-center gap-12 min-w-full">
+                                <a href="https://sui.io" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/sui-logo.png" alt="SUI" class="h-8 object-contain">
+                                </a>
+                                <a href="https://www.cetus.zone" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/cetus-logo.png" alt="Cetus" class="h-8 object-contain">
+                                </a>
+                                <a href="https://app.scallop.io" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/scallop-logo.png" alt="Scallop" class="h-8 object-contain">
+                                </a>
+                                <a href="https://bucketprotocol.io" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/bucket-logo.png" alt="Bucket" class="h-8 object-contain">
+                                </a>
+                                <a href="https://bluefin.io" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/bluefin-logo.png" alt="Bluefin" class="h-8 object-contain">
+                                </a>
+                            </div>
+                            <!-- Second set of logos (duplicate for seamless loop) -->
+                            <div class="flex items-center justify-center gap-12 min-w-full">
+                                <a href="https://suilend.com" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/suilend-logo.png" alt="Suilend" class="h-8 object-contain">
+                                </a>
+                                <a href="https://sui.io" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/sui-logo.png" alt="SUI" class="h-8 object-contain">
+                                </a>
+                                <a href="https://www.cetus.zone" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/cetus-logo.png" alt="Cetus" class="h-8 object-contain">
+                                </a>
+                                <a href="https://app.scallop.io" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/scallop-logo.png" alt="Scallop" class="h-8 object-contain">
+                                </a>
+                                <a href="https://bucketprotocol.io" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/bucket-logo.png" alt="Bucket" class="h-8 object-contain">
+                                </a>
+                            </div>
+                            <!-- Third set of logos (duplicate for seamless loop) -->
+                            <div class="flex items-center justify-center gap-12 min-w-full">
+                                <a href="https://sui.io" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/sui-logo.png" alt="SUI" class="h-8 object-contain">
+                                </a>
+                                <a href="https://www.cetus.zone" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/cetus-logo.png" alt="Cetus" class="h-8 object-contain">
+                                </a>
+                                <a href="https://app.scallop.io" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/scallop-logo.png" alt="Scallop" class="h-8 object-contain">
+                                </a>
+                                <a href="https://bucketprotocol.io" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/bucket-logo.png" alt="Bucket" class="h-8 object-contain">
+                                </a>
+                                <a href="https://bluefin.io" target="_blank" class="transform hover:scale-110 transition-transform duration-300 hover:opacity-80">
+                                    <img src="/images/bluefin-logo.png" alt="Bluefin" class="h-8 object-contain">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Pixel Wave Animation -->
+    <div class="absolute left-0 right-0 h-48 overflow-hidden pointer-events-none">
+        <div id="pixelWave" class="relative w-full h-full">
+            <!-- Pixels will be dynamically generated here -->
+        </div>
+        <!-- Gradient Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+    </div>
+
+    </div>
+    <div class="relative py-32">
+    </div>
+
+    <div class="relative min-h-screen">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-crypto-900/50 to-crypto-900/80 pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="space-y-16">
+                <!-- Token Due Diligence -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-8">
+                        <h2 class="text-4xl font-bold text-white tracking-tight leading-tight animate-float-slower">Tired of missing the good opportunities and being in the information storm with no visibility?</h2>
+                        <div class="space-y-6 text-white/90 text-lg leading-relaxed">
+                            <p class="bg-gradient-to-br from-gray-900/90 to-crypto-900/90 p-4 rounded-lg border border-gray-700/50 backdrop-blur-sm">Simply enter a token address and DolphAI will guide you out of the foam with a comprehensive analysis on project fundamentals, technology value, team background, community engagement and on-chain activities.</p>
+                            <p class="bg-gradient-to-br from-gray-900/90 to-crypto-900/90 p-4 rounded-lg border border-gray-700/50 backdrop-blur-sm">Activate your token's utility with direct integrations with leading SUI projects.</p>
+                            <p class="font-semibold text-xl bg-gradient-to-r from-primary-200 to-crypto-200 text-transparent bg-clip-text animate-pulse-slow">Make smarter, data-driven decisions, at unrivaled speed.</p>
+                        </div>
+                        <div class="animate-float">
+                            <a href="#launch" class="inline-block px-8 py-4 bg-gradient-to-r from-primary-500 to-crypto-500 hover:from-primary-400 hover:to-crypto-400 text-white rounded-lg transition-all duration-300 font-medium shadow-xl shadow-primary-500/30 hover:shadow-primary-400/40 border border-primary-400/30 hover:border-primary-400/50">Launch App</a>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-br from-primary-500/30 to-crypto-500/30 rounded-xl aspect-video flex items-center justify-center border border-primary-400/30 shadow-xl shadow-primary-500/20 backdrop-blur-sm hover:border-primary-400/50 transition-all duration-300 group relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-crypto-500/10 animate-wave opacity-50"></div>
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-crypto-500/10 animate-wave opacity-30" style="animation-delay: -2s;"></div>
+                        <span class="text-xl font-semibold text-white relative z-10">Token Due Diligence</span>
+                    </div>
+                </div>
+
+                <!-- Section Delimiter -->
+                <div class="w-full h-px bg-gradient-to-r from-transparent via-gray-700/50 to-transparent my-8"></div>
+
+                <!-- Web3 Intelligence Alerts -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center py-0">
+                    <div class="bg-gradient-to-br from-primary-500/30 to-crypto-500/30 rounded-xl aspect-video flex items-center justify-center order-2 md:order-1 border border-primary-400/30 shadow-xl shadow-primary-500/20 backdrop-blur-sm hover:border-primary-400/50 transition-all duration-300 group relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-crypto-500/10 animate-ripple opacity-50"></div>
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-crypto-500/10 animate-ripple opacity-30" style="animation-delay: -1.5s;"></div>
+                        <div class="text-center space-y-2 relative z-10">
+                            <div class="text-xl font-semibold text-white ">Web3 Intelligence Alerts</div>
+                            <div class="text-primary-200/90 font-medium animate-pulse-slow">(Coming Soon)</div>
+                        </div>
+                    </div>
+                    <div class="space-y-8 order-1 md:order-2">
+                        <div class="space-y-6 text-white/90 text-lg leading-relaxed">
+                            <p class="bg-gradient-to-br from-gray-900/90 to-crypto-900/90 p-4 rounded-lg border border-gray-700/50 backdrop-blur-sm ">With DolphAI, you receive real-time alerts on changes impacting your tracked projects.</p>
+                            <p class="bg-gradient-to-br from-gray-900/90 to-crypto-900/90 p-4 rounded-lg border border-gray-700/50 backdrop-blur-sm">A change in the project technology? A community building around the token? A spike in the on-chain activities? DolphAI will let you know.</p>
+                            <p class="font-semibold text-xl bg-gradient-to-r from-primary-200 to-crypto-200 text-transparent bg-clip-text">Always be first in the know.</p>
+                        </div>
+                        <div class="animate-float-slower">
+                            <a href="#launch" class="inline-block px-8 py-4 bg-gradient-to-r from-primary-500 to-crypto-500 hover:from-primary-400 hover:to-crypto-400 text-white rounded-lg transition-all duration-300 font-medium shadow-xl shadow-primary-500/30 hover:shadow-primary-400/40 border border-primary-400/30 hover:border-primary-400/50">Launch App</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Delimiter -->
+                <div class="w-full h-px bg-gradient-to-r from-transparent via-gray-700/50 to-transparent my-8"></div>
+
+                <!-- Token Utility Optimization -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center pb-12">
+                    <div class="space-y-8">
+                        <div class="space-y-6 text-white/90 text-lg leading-relaxed">
+                            <p class="bg-gradient-to-br from-gray-900/90 to-crypto-900/90 p-4 rounded-lg border border-gray-700/50 backdrop-blur-sm">Staking, Liquid, Liquidity Providing, Borrowing, Lending, Perps, Governance... The DeFi world can be intimidating.</p>
+                            <p class="bg-gradient-to-br from-gray-900/90 to-crypto-900/90 p-4 rounded-lg border border-gray-700/50 backdrop-blur-sm">This is why DolphAI decode, teach and optimize your token utility strategy.</p>
+                            <p class="font-semibold text-xl bg-gradient-to-r from-primary-200 to-crypto-200 text-transparent bg-clip-text">Optimize your tokens utility and earn more</p>
+                        </div>
+                        <div>
+                            <a href="#launch" class="inline-block px-8 py-4 bg-gradient-to-r from-primary-500 to-crypto-500 hover:from-primary-400 hover:to-crypto-400 text-white rounded-lg transition-all duration-300 font-medium shadow-xl shadow-primary-500/30 hover:shadow-primary-400/40 border border-primary-400/30 hover:border-primary-400/50 animate-float">Launch App</a>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-br from-primary-500/30 to-crypto-500/30 rounded-xl aspect-video flex items-center justify-center border border-primary-400/30 shadow-xl shadow-primary-500/20 backdrop-blur-sm hover:border-primary-400/50 transition-all duration-300">
+                        <div class="text-center space-y-2">
+                            <div class="text-xl font-semibold text-white">Token Utility Optimization</div>
+                            <div class="text-primary-200/90 font-medium">(Coming Soon)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Roadmap Section -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative overflow-hidden">
+            <!-- Decorative Bubbles -->
+            <div class="absolute inset-0 pointer-events-none">
+                <div class="absolute w-4 h-4 bg-primary-400/20 rounded-full left-1/4 top-1/4 animate-float-bubble" style="animation-delay: -2s;"></div>
+                <div class="absolute w-6 h-6 bg-crypto-400/20 rounded-full right-1/3 top-1/2 animate-float-bubble" style="animation-delay: -1s;"></div>
+                <div class="absolute w-3 h-3 bg-primary-400/20 rounded-full left-1/3 bottom-1/4 animate-float-bubble" style="animation-delay: -3s;"></div>
+            </div>
+
+            <div class="text-center mb-16 relative animate-float-slower">
+                <h2 class="text-4xl font-bold bg-gradient-to-r from-primary-400 to-crypto-400 text-transparent bg-clip-text mb-4">Roadmap</h2>
+                <p class="text-gray-400 text-lg">Our journey to revolutionize Web3 intelligence</p>
+            </div>
+
+            <div class="relative">
+                <!-- Timeline Line with Ripple Effect -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-primary-500/50 to-crypto-500/50 overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-b from-primary-400/30 to-crypto-400/30 animate-ripple-vertical"></div>
+                </div>
+
+                <!-- H1 2025 -->
+                <div class="relative z-10 mb-24">
+                    <div class="flex items-center justify-center mb-8">
+                        <div class="bg-gradient-to-r from-primary-600 to-crypto-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg shadow-primary-500/20 border border-primary-500/20 backdrop-blur-sm animate-float group hover:scale-105 transition-transform duration-300">
+                            <span class="relative inline-block">H1 2025</span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-gradient-to-br from-gray-800/50 to-crypto-900/50 p-6 rounded-xl border border-gray-700/50 backdrop-blur-sm hover:border-primary-500/50 transition-all duration-300 group hover:transform hover:scale-105 animate-float-slow">
+                            <div class="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-crypto-500/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <h3 class="text-xl font-semibold text-white mb-4 group-hover:text-primary-400 transition-colors duration-300">Dashboarding & Intelligence</h3>
+                            <ul class="space-y-3 text-gray-300">
+                                <li class="flex items-center group-hover:transform group-hover:translate-x-2 transition-transform duration-300">
+                                    <svg class="w-5 h-5 mr-2 text-primary-500 group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg>
+                                    Web3 Intelligence Alerts
+                                </li>
+                                <li class="flex items-center group-hover:transform group-hover:translate-x-2 transition-transform duration-300">
+                                    <svg class="w-5 h-5 mr-2 text-primary-500 group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg>
+                                    Interact with Flipper
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bg-gradient-to-br from-gray-800/50 to-crypto-900/50 p-6 rounded-xl border border-gray-700/50 backdrop-blur-sm hover:border-primary-500/50 transition-all duration-300 group hover:transform hover:scale-105 animate-float">
+                            <div class="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-crypto-500/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <h3 class="text-xl font-semibold text-white mb-4 group-hover:text-primary-400 transition-colors duration-300">Specialized Agents</h3>
+                            <ul class="space-y-3 text-gray-300">
+                                <li class="flex items-center group-hover:transform group-hover:translate-x-2 transition-transform duration-300">
+                                    <svg class="w-5 h-5 mr-2 text-primary-500 group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg>
+                                    Token Utility Optimization
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2 text-primary-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg>
+                                    Social Sentiment Analysis
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2 text-primary-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg>
+                                    Advanced On-chain Analytics
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2 text-crypto-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg>
+                                    Alpha Hunter
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- H2 2025 -->
+                <div class="relative z-10">
+                    <div class="flex items-center justify-center mb-8">
+                        <div class="bg-gradient-to-r from-primary-600 to-crypto-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg shadow-primary-500/20 border border-primary-500/20 backdrop-blur-sm animate-float group hover:scale-105 transition-transform duration-300">
+                            <span class="relative inline-block group-hover:text-primary-200 transition-colors duration-300">H2 2025</span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-gradient-to-br from-gray-800/50 to-crypto-900/50 p-6 rounded-xl border border-gray-700/50 backdrop-blur-sm hover:border-primary-500/50 transition-all duration-300 group hover:transform hover:scale-105 animate-float-slow relative overflow-hidden">
+                            <div class="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-crypto-500/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <div class="absolute -right-12 -top-12 w-24 h-24 bg-primary-500/10 rounded-full blur-xl group-hover:bg-primary-500/20 transition-all duration-500"></div>
+                            <h3 class="text-xl font-semibold text-white mb-4 group-hover:text-primary-400 transition-colors duration-300">Platform Expansion</h3>
+                            <ul class="space-y-3 text-gray-300">
+                                <li class="flex items-center group-hover:transform group-hover:translate-x-2 transition-transform duration-300">
+                                    <svg class="w-5 h-5 mr-2 text-primary-500 group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg>
+                                    <span class="relative">TG & Browser Plugin Integration
+                                        <div class="absolute inset-0 bg-gradient-to-r from-primary-500/0 via-primary-500/30 to-primary-500/0 opacity-0 group-hover:opacity-100 blur-sm transition-opacity duration-300"></div>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bg-gradient-to-br from-gray-800/50 to-crypto-900/50 p-6 rounded-xl border border-gray-700/50 backdrop-blur-sm hover:border-primary-500/50 transition-all duration-300 group hover:transform hover:scale-105 animate-float relative overflow-hidden">
+                            <div class="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-crypto-500/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <div class="absolute -left-12 -bottom-12 w-24 h-24 bg-crypto-500/10 rounded-full blur-xl group-hover:bg-crypto-500/20 transition-all duration-500"></div>
+                            <h3 class="text-xl font-semibold text-white mb-4 group-hover:text-primary-400 transition-colors duration-300">Data Intelligence</h3>
+                            <ul class="space-y-3 text-gray-300">
+                                <li class="flex items-center group-hover:transform group-hover:translate-x-2 transition-transform duration-300">
+                                    <svg class="w-5 h-5 mr-2 text-primary-500 group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg>
+                                    <span class="relative">Proprietary Data Intelligence System
+                                        <div class="absolute inset-0 bg-gradient-to-r from-crypto-500/0 via-crypto-500/30 to-crypto-500/0 opacity-0 group-hover:opacity-100 blur-sm transition-opacity duration-300"></div>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-b from-crypto-900 to-gray-900 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col items-center space-y-8">
+                <!-- Logo -->
+                <div class="text-2xl font-bold bg-gradient-to-r from-primary-400 to-crypto-400 text-transparent bg-clip-text">DOLPHAI.XYZ</div>
+                
+                <!-- Social Links -->
+                <div class="flex items-center space-x-6">
+                    <a href="https://x.com/dolphai" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-all duration-200">
+                        <span class="sr-only">Twitter</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Links -->
+                <div class="flex flex-wrap justify-center gap-x-8 gap-y-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition-all duration-200">Team</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-all duration-200">Documentation</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-all duration-200">Contact</a>
+                </div>
+
+                <!-- Copyright -->
+                <div class="text-gray-500 text-sm">
+                    © 2025 DolphAI. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+    </footer>
+</body>
+</html>
