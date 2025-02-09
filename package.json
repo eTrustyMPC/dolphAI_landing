@@ -4,7 +4,9 @@
   "description": "Welcome to the DolphAI landing page repository! This repository contains the source code for the DolphAI project's landing page.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
